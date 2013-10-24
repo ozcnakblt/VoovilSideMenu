@@ -1,10 +1,10 @@
-VoovilSideMenu for iOS 7 and XCode 5 (ARC)
+VoovilSideMenu for iOS 7 and XCode 5
 ==============
 
 <h6>Note: This is my first project on Github!</h6>
 
 **VoovilSideMenu** is a simple SideMenu for iOS 7 Apps. 
-This app use storyboards, it's works fine with Swipe Gesture and IBAction button.
+This app use ARC, Storyboards, it's works fine with Swipe Gesture and IBAction button.
 I have use Modern Objective-C, so you can easily add items to tableview with .plist.
 The picture will be automatically rounded with CAlayer.
 
