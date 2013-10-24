@@ -58,7 +58,6 @@
     //slide the content view to the right to reveal the menu
     [UIView animateWithDuration:0.5 animations:^{
         self.navigationController.navigationBar.frame = CGRectMake(275, self.navigationController.navigationBar.frame.origin.y, self.navigationController.navigationBar.frame.size.width, self.navigationController.navigationBar.frame.size.height);
-        self.tabBarController.tabBar.frame = CGRectMake(275, 518, 320, 49);
 
         [sideMenu setFrame:CGRectMake(menuTable.frame.size.width, sideMenu.frame.origin.y, sideMenu.frame.size.width, sideMenu.frame.size.height)];
     }];
@@ -69,7 +68,7 @@
     //slide the content view to the left to hide the menu
     [UIView animateWithDuration:.5 animations:^{
         self.navigationController.navigationBar.frame = CGRectMake(0, self.navigationController.navigationBar.frame.origin.y, self.navigationController.navigationBar.frame.size.width, self.navigationController.navigationBar.frame.size.height);
-        self.tabBarController.tabBar.frame = CGRectMake(0, 518, 320, 49);
+
         [sideMenu setFrame:CGRectMake(0, sideMenu.frame.origin.y, sideMenu.frame.size.width, sideMenu.frame.size.height)];
     }];
 }
