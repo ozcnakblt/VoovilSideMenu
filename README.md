@@ -49,11 +49,13 @@ in
         NSLog(@"Pressed 0");
     }
 </code>
+
 <code>
     if (indexPath.row == 1) {
         NSLog(@"Pressed 1");
     }
 </code>
+
 <code>
     if (indexPath.row == 2) {
         NSLog(@"Pressed 2");
