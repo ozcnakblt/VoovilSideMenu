@@ -9,7 +9,10 @@ I have use Modern Objective-C, so you can easily add items to tableview with .pl
 The picture will be automatically rounded with CAlayer.
 
 <h3>Screenshot</h3>
-<img width="70%" src="http://ozcanakbulut.com/images/github/VSideMenu.png"/>
+<h5>Normal Github version (Free) | Pro Version (for sale on codecanyon)
+
+<img width="30%" src="http://ozcanakbulut.com/images/github/VSideMenu.png"/>&nbsp;&nbsp;&nbsp;
+<img width="30%" src="http://ozcanakbulut.com/images/github/VSideMenuPro.gif"/>
 
 <h2>How-To</h2>
 
