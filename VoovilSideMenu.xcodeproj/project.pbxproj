@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D394D7C4181868E800B32CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7C3181868E800B32CDE /* Foundation.framework */; };
+		D394D7C6181868E800B32CDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7C5181868E800B32CDE /* CoreGraphics.framework */; };
+		D394D7C8181868E800B32CDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7C7181868E800B32CDE /* UIKit.framework */; };
+		D394D7CE181868E800B32CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D394D7CC181868E800B32CDE /* InfoPlist.strings */; };
+		D394D7D0181868E800B32CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D394D7CF181868E800B32CDE /* main.m */; };
+		D394D7D4181868E800B32CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D394D7D3181868E800B32CDE /* AppDelegate.m */; };
+		D394D7D7181868E800B32CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D394D7D5181868E800B32CDE /* Main.storyboard */; };
+		D394D7DA181868E800B32CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D394D7D9181868E800B32CDE /* ViewController.m */; };
+		D394D7DC181868E800B32CDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D394D7DB181868E800B32CDE /* Images.xcassets */; };
+		D394D7E3181868E800B32CDE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7E2181868E800B32CDE /* XCTest.framework */; };
+		D394D7E4181868E800B32CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7C3181868E800B32CDE /* Foundation.framework */; };
+		D394D7E5181868E800B32CDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D394D7C7181868E800B32CDE /* UIKit.framework */; };
+		D394D7ED181868E800B32CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D394D7EB181868E800B32CDE /* InfoPlist.strings */; };
+		D394D7EF181868E800B32CDE /* VoovilSideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D394D7EE181868E800B32CDE /* VoovilSideMenuTests.m */; };
+		D394D800181868F900B32CDE /* bg-default.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7F9181868F900B32CDE /* bg-default.png */; };
+		D394D801181868F900B32CDE /* bg-default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7FA181868F900B32CDE /* bg-default@2x.png */; };
+		D394D802181868F900B32CDE /* bg-sideMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7FB181868F900B32CDE /* bg-sideMenu.png */; };
+		D394D803181868F900B32CDE /* bg-sideMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7FC181868F900B32CDE /* bg-sideMenu@2x.png */; };
+		D394D804181868F900B32CDE /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7FE181868F900B32CDE /* list.png */; };
+		D394D805181868F900B32CDE /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D7FF181868F900B32CDE /* list@2x.png */; };
+		D394D80818186CA800B32CDE /* sideMenu.plist in Resources */ = {isa = PBXBuildFile; fileRef = D394D80718186CA800B32CDE /* sideMenu.plist */; };
+		D394D80C18186EA500B32CDE /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D80A18186EA500B32CDE /* avatar.png */; };
+		D394D80D18186EA500B32CDE /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D394D80B18186EA500B32CDE /* avatar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D394D7E6181868E800B32CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D394D7B8181868E800B32CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D394D7BF181868E800B32CDE;
+			remoteInfo = VoovilSideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D394D7C0181868E800B32CDE /* VoovilSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoovilSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D394D7C3181868E800B32CDE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D394D7C5181868E800B32CDE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D394D7C7181868E800B32CDE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D394D7CB181868E800B32CDE /* VoovilSideMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoovilSideMenu-Info.plist"; sourceTree = "<group>"; };
+		D394D7CD181868E800B32CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D394D7CF181868E800B32CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D394D7D1181868E800B32CDE /* VoovilSideMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoovilSideMenu-Prefix.pch"; sourceTree = "<group>"; };
+		D394D7D2181868E800B32CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D394D7D3181868E800B32CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D394D7D6181868E800B32CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D394D7D8181868E800B32CDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D394D7D9181868E800B32CDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D394D7DB181868E800B32CDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D394D7E1181868E800B32CDE /* VoovilSideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoovilSideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D394D7E2181868E800B32CDE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D394D7EA181868E800B32CDE /* VoovilSideMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoovilSideMenuTests-Info.plist"; sourceTree = "<group>"; };
+		D394D7EC181868E800B32CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D394D7EE181868E800B32CDE /* VoovilSideMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoovilSideMenuTests.m; sourceTree = "<group>"; };
+		D394D7F9181868F900B32CDE /* bg-default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-default.png"; sourceTree = "<group>"; };
+		D394D7FA181868F900B32CDE /* bg-default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-default@2x.png"; sourceTree = "<group>"; };
+		D394D7FB181868F900B32CDE /* bg-sideMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sideMenu.png"; sourceTree = "<group>"; };
+		D394D7FC181868F900B32CDE /* bg-sideMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-sideMenu@2x.png"; sourceTree = "<group>"; };
+		D394D7FE181868F900B32CDE /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		D394D7FF181868F900B32CDE /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		D394D80718186CA800B32CDE /* sideMenu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sideMenu.plist; sourceTree = "<group>"; };
+		D394D80A18186EA500B32CDE /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		D394D80B18186EA500B32CDE /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D394D7BD181868E800B32CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D7C6181868E800B32CDE /* CoreGraphics.framework in Frameworks */,
+				D394D7C8181868E800B32CDE /* UIKit.framework in Frameworks */,
+				D394D7C4181868E800B32CDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D394D7DE181868E800B32CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D7E3181868E800B32CDE /* XCTest.framework in Frameworks */,
+				D394D7E5181868E800B32CDE /* UIKit.framework in Frameworks */,
+				D394D7E4181868E800B32CDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D394D7B7181868E800B32CDE = {
+			isa = PBXGroup;
+			children = (
+				D394D7C9181868E800B32CDE /* VoovilSideMenu */,
+				D394D7E8181868E800B32CDE /* VoovilSideMenuTests */,
+				D394D7C2181868E800B32CDE /* Frameworks */,
+				D394D7C1181868E800B32CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D394D7C1181868E800B32CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7C0181868E800B32CDE /* VoovilSideMenu.app */,
+				D394D7E1181868E800B32CDE /* VoovilSideMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D394D7C2181868E800B32CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7C3181868E800B32CDE /* Foundation.framework */,
+				D394D7C5181868E800B32CDE /* CoreGraphics.framework */,
+				D394D7C7181868E800B32CDE /* UIKit.framework */,
+				D394D7E2181868E800B32CDE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D394D7C9181868E800B32CDE /* VoovilSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7D2181868E800B32CDE /* AppDelegate.h */,
+				D394D7D3181868E800B32CDE /* AppDelegate.m */,
+				D394D7D5181868E800B32CDE /* Main.storyboard */,
+				D394D7D8181868E800B32CDE /* ViewController.h */,
+				D394D7D9181868E800B32CDE /* ViewController.m */,
+				D394D80618186CA800B32CDE /* plist */,
+				D394D7F8181868F900B32CDE /* images */,
+				D394D7DB181868E800B32CDE /* Images.xcassets */,
+				D394D7CA181868E800B32CDE /* Supporting Files */,
+			);
+			path = VoovilSideMenu;
+			sourceTree = "<group>";
+		};
+		D394D7CA181868E800B32CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7CB181868E800B32CDE /* VoovilSideMenu-Info.plist */,
+				D394D7CC181868E800B32CDE /* InfoPlist.strings */,
+				D394D7CF181868E800B32CDE /* main.m */,
+				D394D7D1181868E800B32CDE /* VoovilSideMenu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D394D7E8181868E800B32CDE /* VoovilSideMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7EE181868E800B32CDE /* VoovilSideMenuTests.m */,
+				D394D7E9181868E800B32CDE /* Supporting Files */,
+			);
+			path = VoovilSideMenuTests;
+			sourceTree = "<group>";
+		};
+		D394D7E9181868E800B32CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7EA181868E800B32CDE /* VoovilSideMenuTests-Info.plist */,
+				D394D7EB181868E800B32CDE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D394D7F8181868F900B32CDE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D394D80A18186EA500B32CDE /* avatar.png */,
+				D394D80B18186EA500B32CDE /* avatar@2x.png */,
+				D394D7F9181868F900B32CDE /* bg-default.png */,
+				D394D7FA181868F900B32CDE /* bg-default@2x.png */,
+				D394D7FB181868F900B32CDE /* bg-sideMenu.png */,
+				D394D7FC181868F900B32CDE /* bg-sideMenu@2x.png */,
+				D394D7FD181868F900B32CDE /* Icons */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		D394D7FD181868F900B32CDE /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D394D7FE181868F900B32CDE /* list.png */,
+				D394D7FF181868F900B32CDE /* list@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		D394D80618186CA800B32CDE /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				D394D80718186CA800B32CDE /* sideMenu.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D394D7BF181868E800B32CDE /* VoovilSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D394D7F2181868E800B32CDE /* Build configuration list for PBXNativeTarget "VoovilSideMenu" */;
+			buildPhases = (
+				D394D7BC181868E800B32CDE /* Sources */,
+				D394D7BD181868E800B32CDE /* Frameworks */,
+				D394D7BE181868E800B32CDE /* Resources */,
+				D394D80918186D4100B32CDE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoovilSideMenu;
+			productName = VoovilSideMenu;
+			productReference = D394D7C0181868E800B32CDE /* VoovilSideMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D394D7E0181868E800B32CDE /* VoovilSideMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D394D7F5181868E800B32CDE /* Build configuration list for PBXNativeTarget "VoovilSideMenuTests" */;
+			buildPhases = (
+				D394D7DD181868E800B32CDE /* Sources */,
+				D394D7DE181868E800B32CDE /* Frameworks */,
+				D394D7DF181868E800B32CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D394D7E7181868E800B32CDE /* PBXTargetDependency */,
+			);
+			name = VoovilSideMenuTests;
+			productName = VoovilSideMenuTests;
+			productReference = D394D7E1181868E800B32CDE /* VoovilSideMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D394D7B8181868E800B32CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Özcan Akbulut";
+				TargetAttributes = {
+					D394D7E0181868E800B32CDE = {
+						TestTargetID = D394D7BF181868E800B32CDE;
+					};
+				};
+			};
+			buildConfigurationList = D394D7BB181868E800B32CDE /* Build configuration list for PBXProject "VoovilSideMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D394D7B7181868E800B32CDE;
+			productRefGroup = D394D7C1181868E800B32CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D394D7BF181868E800B32CDE /* VoovilSideMenu */,
+				D394D7E0181868E800B32CDE /* VoovilSideMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D394D7BE181868E800B32CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D800181868F900B32CDE /* bg-default.png in Resources */,
+				D394D7DC181868E800B32CDE /* Images.xcassets in Resources */,
+				D394D80818186CA800B32CDE /* sideMenu.plist in Resources */,
+				D394D7CE181868E800B32CDE /* InfoPlist.strings in Resources */,
+				D394D803181868F900B32CDE /* bg-sideMenu@2x.png in Resources */,
+				D394D805181868F900B32CDE /* list@2x.png in Resources */,
+				D394D7D7181868E800B32CDE /* Main.storyboard in Resources */,
+				D394D802181868F900B32CDE /* bg-sideMenu.png in Resources */,
+				D394D801181868F900B32CDE /* bg-default@2x.png in Resources */,
+				D394D80D18186EA500B32CDE /* avatar@2x.png in Resources */,
+				D394D804181868F900B32CDE /* list.png in Resources */,
+				D394D80C18186EA500B32CDE /* avatar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D394D7DF181868E800B32CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D7ED181868E800B32CDE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D394D80918186D4100B32CDE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbN=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbN=$((bN += 1))\nbN=$(printf \"%d\" $bN)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $bN\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D394D7BC181868E800B32CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D7DA181868E800B32CDE /* ViewController.m in Sources */,
+				D394D7D4181868E800B32CDE /* AppDelegate.m in Sources */,
+				D394D7D0181868E800B32CDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D394D7DD181868E800B32CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D394D7EF181868E800B32CDE /* VoovilSideMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D394D7E7181868E800B32CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D394D7BF181868E800B32CDE /* VoovilSideMenu */;
+			targetProxy = D394D7E6181868E800B32CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D394D7CC181868E800B32CDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D394D7CD181868E800B32CDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D394D7D5181868E800B32CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D394D7D6181868E800B32CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D394D7EB181868E800B32CDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D394D7EC181868E800B32CDE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D394D7F0181868E800B32CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D394D7F1181868E800B32CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D394D7F3181868E800B32CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoovilSideMenu/VoovilSideMenu-Prefix.pch";
+				INFOPLIST_FILE = "VoovilSideMenu/VoovilSideMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D394D7F4181868E800B32CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoovilSideMenu/VoovilSideMenu-Prefix.pch";
+				INFOPLIST_FILE = "VoovilSideMenu/VoovilSideMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D394D7F6181868E800B32CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoovilSideMenu.app/VoovilSideMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoovilSideMenu/VoovilSideMenu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VoovilSideMenuTests/VoovilSideMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D394D7F7181868E800B32CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VoovilSideMenu.app/VoovilSideMenu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoovilSideMenu/VoovilSideMenu-Prefix.pch";
+				INFOPLIST_FILE = "VoovilSideMenuTests/VoovilSideMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D394D7BB181868E800B32CDE /* Build configuration list for PBXProject "VoovilSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D394D7F0181868E800B32CDE /* Debug */,
+				D394D7F1181868E800B32CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D394D7F2181868E800B32CDE /* Build configuration list for PBXNativeTarget "VoovilSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D394D7F3181868E800B32CDE /* Debug */,
+				D394D7F4181868E800B32CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D394D7F5181868E800B32CDE /* Build configuration list for PBXNativeTarget "VoovilSideMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D394D7F6181868E800B32CDE /* Debug */,
+				D394D7F7181868E800B32CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D394D7B8181868E800B32CDE /* Project object */;
+}
